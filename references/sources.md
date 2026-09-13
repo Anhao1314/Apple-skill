@@ -1,56 +1,25 @@
-# 信源分级与引用规范
+# 来源与引用纪律
 
-> 目的：保证 skill 输出的每一条"苹果做法/乔布斯表述"可追溯，把方法论鸡汤挡在门外。
+本项目是独立分析框架，不是 Apple 官方方法论认证。原则标题与操作建议属于本项目的归纳。
 
-## 信源分级
+## 证据层级
 
-### 一级：苹果官方与当事人一手材料（最高可信）
+1. 官方公告与技术资料：用于产品特征和发布时间；不证明采用率、满意度、内部动机或商业因果。
+2. 当事人记录：[Steve Jobs Archive 的 Make Something Wonderful](https://book.stevejobsarchive.com/) 可作进一步核查入口；它不是本项目的 Apple 官方背书。
+3. 方法论推断：明确标注分析者的判断，不写成历史当事人原话。
 
-- 苹果产品发布会与 WWDC Keynote、设计专场 Session 视频及文字稿（如 Designing Fluid Interfaces, WWDC 2018；Principles of Great Design 等，引用时核对具体年份）。
-- Apple 官网：Human Interface Guidelines、Apple Design Awards、Newsroom 公告。
-- 乔布斯公开信：Thoughts on Music（2007）、Thoughts on Flash（2010）。
-- Stanford 毕业典礼演讲（2005）、D Conference（D3/D5/D8）访谈、The Lost Interview（1995）、WWDC 1997 Q&A。
-- 《Make Something Wonderful》（2023）：乔布斯家属推动、Apple 官方参与编纂的纪念电子书，收录大量一手文稿与邮件。
+可直接引用的事实和逐项链接见 [案例](cases.md)。本版本采用释义，不依赖历史金句。
 
-### 二级：授权传记与一线共事者记录（可信，注意视角）
+## 核查方式
 
-- Walter Isaacson《Steve Jobs》（2011，授权传记，基于数十次本人及亲友访谈）。
-- Brent Schlender / Rick Tetzeli《Becoming Steve Jobs》（2015）。
-- Leander Kahney 的 Jony Ive 传记（2013）与《Inside Steve's Brain》。
-- Andy Hertzfeld 等，folklore.org（Mac 团队一线回忆，含"Real artists ship"等典故出处）。
-- Adam Lashinsky《Inside Apple》：DRI、组织与流程的主要公开来源。
-- 现任/历任高管（Tim Cook、Jony Ive、Alan Dye、Tony Fadell 等）在主流媒体的署名访谈。
+直接引语必须核对原文、说话人、年份与语境，并给可访问的具体来源。二手转述不能伪装为原话。无法证实则删除或标为待核实，不能仅给一个网站首页作为证明。
+历史产品公告只支持该时点的信息；竞品现状、价格、法规与新产品信息需要重新核实。
+用户材料里的调查数据注明由用户提供，不擅自升级为独立验证。
 
-### 三级：外界分析（只能作为"分析观点"引用，不得表述为事实）
+## 无浏览能力
 
-- Ben Thompson / Stratechery、HBR 案例、The Verge / Wired / WSJ 深度拆解、学术论文。
+继续评审用户提供的材料及本地框架，明确假设。影响结论的外部事实标为待核实，给核查项或请用户提供材料；不要制造链接、引用、访谈或数字。不为等待工具而阻塞可完成的判断。
 
-### 排除（不得作为依据）
+## 本次清理
 
-- 无英文/原文出处的中文"乔布斯语录"、公众号与百家号营销文、知乎二手转述、百科词条。
-- AI 生成的、无法回溯到上述三级以内来源的"苹果方法论"。
-
-## 引用格式
-
-- 引语：说话人 + 原话（必要时中英对照）+ 场合 + 年份，如：Jobs, WWDC 1997 Q&A。
-- 案例：先陈述可验证事实（时间、产品、决策），再给分析；分析部分用"这说明……"与事实分开。
-- 数字（销量、份额、时间点）必须来自一级或二级来源并可复核；记不准就联网核实，不用约数冒充。
-- 输出中显式区分：**【官方表述】/【传记记录】/【方法论推断】**。
-
-## 常见误传与语境校正（防止错引）
-
-| 流传说法 | 准确版本与语境 |
-| --- | --- |
-| "顾客不知道自己想要什么" | 原文大意为 "people don't know what they want until you show it to them"（1998 BusinessWeek 等）。不是否定用户研究，而是指突破性形态无法靠问卷推导；日常痛点仍须实地观察。 |
-| "Stay hungry, stay foolish" | 出自《Whole Earth Catalog》停刊号，乔布斯在 Stanford 2005 引用，非其原创。 |
-| "Design is not just what it looks like and feels like. Design is how it works." | 出自 1996 年 NYT 对乔布斯的采访（谈 NeXT），回归苹果之前。 |
-| "Good artists copy, great artists steal" | 源自毕加索，乔布斯引用，语境是借鉴并消化想法，不是抄袭形态。 |
-| "Real artists ship" | Mac 时期典故，见 folklore.org，属团队一线记录（二级）。 |
-| "简单比复杂难"系列 | 准确表述见 principles.md 原则 6，注意区分达芬奇 "Simplicity is the ultimate sophistication"（引用）与乔布斯本人表述。 |
-| 任何"乔布斯谈 AI / 谈某新产品"的引语 | 乔布斯 2011 年 10 月逝世，此后均为他人分析或伪托，只能作为【方法论推断】并明确标注。 |
-
-## 时效要求
-
-- 2011 年后的苹果（Cook 时代：Apple Watch、AirPods、Vision Pro、Apple Intelligence、组织与供应链变化）没有乔布斯本人观点，禁止编造"乔布斯会怎么评价"。
-- 苹果设计语言与 HIG 持续更新（如近年的 Liquid Glass、各平台设计原则调整），引用具体设计原则时核对当前官方版本与发布年份；本 skill 聚焦产品方法论，不承载 UI 规范细节。
-- 评审涉及当下市场格局、竞品现状、用户口碑时，先联网取最新证据，不以模型记忆替代。
+删除未核实的 WWDC 长引语、达芬奇／毕加索归属、团队人数和产品数量、固定原型比例、快速责任定位时间，以及 HomePod 市场成败和 Vision Pro 后续型号预测。Newton 停产动机没有足够的一手材料，本版本不再把它作为因果案例。来源日期表示历史资料的时间，不代表今天仍然适用。
